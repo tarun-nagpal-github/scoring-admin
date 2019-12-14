@@ -5,7 +5,7 @@ import Button from "components/button/Button";
 const Footer = props => {
   return (
     <FooterWrapper {...props}>
-      <div className="footerBack flex-x align-center">
+      {/* <div className="footerBack flex-x align-center">
         <div className="flex-1 fs-13 bold-text">
           © 2019 Hexesis, All rights reserved.
         </div>
@@ -22,7 +22,7 @@ const Footer = props => {
             <span className="fs-14 demi-bold-text">Purchase ROE</span>
           </Button>
         </div>
-      </div>
+      </div> */}
     </FooterWrapper>
   );
 };

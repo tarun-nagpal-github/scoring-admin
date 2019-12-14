@@ -1,19 +1,8 @@
 export const sidebarData = [
   {
-    name: 'sidebar.intro',
-    routepath: '/Intro',
-    iconClass: 'fas fa-chalkboard'
-  },
-  {
-    name: 'sidebar.users',
-    iconClass: 'far fa-user',
-    child: [
-      {
-        listname: 'sidebar.lists',
-        routepath: '/users',
-        shortname: 'LI'
-      }
-    ]
+    name: "sidebar.intro",
+    routepath: "/Intro",
+    iconClass: "fas fa-chalkboard"
   }
 ];
 
@@ -59,19 +48,19 @@ export const sidebarData = [
 
 export const HorizontalSidebarData = [
   {
-      name: 'sidebar.intro',
-      routepath: '/Intro',
-      iconClass: 'fas fa-chalkboard'
+    name: "sidebar.intro",
+    routepath: "/Intro",
+    iconClass: "fas fa-chalkboard"
   },
   {
-      name: 'sidebar.users',
-      iconClass: 'far fa-user',
-      child: [
-        {
-          name: 'sidebar.lists',
-          routepath: '/users'
-        }
-      ]
+    name: "sidebar.users",
+    iconClass: "far fa-user",
+    child: [
+      {
+        name: "sidebar.lists",
+        routepath: "/users"
+      }
+    ]
   }
 ];
 

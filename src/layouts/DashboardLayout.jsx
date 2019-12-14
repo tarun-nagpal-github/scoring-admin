@@ -188,7 +188,7 @@ const DashboardLayout = props => {
                 />
               )}
           </div>
-          <Button
+          {/* <Button
             className="setting-button"
             onClick={themeSettingDrawer}
             style={{
@@ -197,7 +197,7 @@ const DashboardLayout = props => {
             }}
           >
             <i className="fas fa-cogs" />
-          </Button>
+          </Button> */}
 
           {themeSetting.toolbarDisplayValue !== "show" && (
             <button

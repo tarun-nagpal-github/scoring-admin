@@ -1,4 +1,4 @@
-export const AppName = "Roe Admin";
+export const AppName = "Scoring Admin";
 export const drawerWidth = "260px";
 export const miniDrawerWidth = "80px";
 export const themeSettingDrawerWidth = "300px";
