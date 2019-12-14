@@ -1,0 +1,77 @@
+.todo-name-edit {
+  border: 0;
+  width: 100%;
+  background-color: transparent;
+  &:focus {
+    outline: 0;
+    background-color: white;
+    transition: 0.5s ease all;
+  }
+}
+
+.todo-dialog-title {
+  background-color: #f4f4f4;
+  padding: 15px;
+  .pretty {
+    margin-right: 10px;
+  }
+}
+
+.todo-edit-dialog {
+  max-width: 400px !important;
+}
+.todo-app {
+  .material-icons {
+    color: #767678;
+  }
+}
+
+.todo-editors {
+  .roe-mark-down-editor {
+    margin-top: 0;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+    resize: none;
+    padding: 0px !important;
+    &:focus {
+      background-color: white;
+    }
+  }
+}
+
+.todo-step-container {
+  align-items: flex-start;
+  .step-delete {
+    opacity: 0;
+  }
+  &:hover {
+    .step-delete {
+      opacity: 1;
+    }
+  }
+}
+
+.todo-completed {
+  text-decoration: line-through;
+  color: #767678;
+}
+
+.my-day-todo {
+  color: #5bc0de;
+  i {
+    color: #5bc0de;
+  }
+  font-weight: 500;
+}
+
+.Due-date-picker {
+  .custom-datepicker {
+    border: 0 !important;
+    background-color: transparent;
+    padding: 0 !important;
+    &:focus {
+      border: 0 !important;
+    }
+  }
+}
